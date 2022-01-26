@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pandoc -o breath.epub title.txt \
+pandoc --css style.css -o breath.epub title.txt \
   preface.md \
   ch1.md \
   ch2.md
