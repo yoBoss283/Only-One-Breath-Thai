@@ -28,4 +28,10 @@
 
 </div>
 
+<div class="center">
+
 ![](./images/ajahnsumedho.jpg)
+
+![](./images/buddha-and-text.jpg)
+
+</div>
