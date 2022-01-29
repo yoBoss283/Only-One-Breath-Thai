@@ -1,4 +1,4 @@
-# หนึ่งลมหายใจ
+# หนึ่งลมหายใจ COPYRIGTH PAGE IN THAI?
 FIXME don't want chapter reference, but need this to be seperate page..
 
 **only one breath** 

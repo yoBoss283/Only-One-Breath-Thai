@@ -1,23 +1,15 @@
-# หนึ่งลมหายใจ
+# หนึ่งลมหายใจ {#title}
 
 <div class="center">
 
 only one breath
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+</div>
+
+
+<div class="space4">&nbsp;</div>
+
+<div class="center">
 
 **ธรรมบรรยาย โดย**
 

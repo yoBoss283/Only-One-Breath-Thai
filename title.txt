@@ -1,5 +1,15 @@
 ---
-title: หนึ่งลมหายใจ
+title:
+- type: main
+  text: หนึ่งลมหายใจ
+- type: subtitle
+  text: only one breath1
+description: only one breath
 author: พระเทพญาณวิเทศ
+creator: พระเทพญาณวิเทศ
 cover-image: cover.jpg
+rights: CC-BY-NC-ND 4.0
+lang: th-TH
+keywords: Ajahn Sumedho, Dhamma, buddhism, RELIGION / Buddhism / Theravada
+identifier: 0000000000001
 ...
