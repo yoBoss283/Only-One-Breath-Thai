@@ -62,3 +62,9 @@
 ![](./images/44-100.jpg)
 
 </div>
+
+<div class="center">
+
+![](./images/ajahnsumedho_color.jpg)
+
+</div>

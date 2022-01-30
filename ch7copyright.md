@@ -1,6 +1,6 @@
-# หนึ่งลมหายใจ COPYRIGTH PAGE IN THAI?
-FIXME don't want chapter reference, but need this to be seperate page..
+# ข้อมูลหนังสือ
 
+**หนึ่งลมหายใจ** \
 **only one breath** 
 
 ธรรมบรรยาย โดย พระเทพญาณวิเทศ (หลวงพ่อสุเมโธ)
@@ -32,3 +32,9 @@ FIXME don't want chapter reference, but need this to be seperate page..
 พิมพ์ที่ บริษัทโรงพิมพ์อักษรสัมพันธ์ (1987) จำกัด 
 
 แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร ๑๐๑๔๐ 
+
+<div class="center">
+
+![](./images/backpage.jpg)
+
+</div>

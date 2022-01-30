@@ -3,7 +3,7 @@ title:
 - type: main
   text: หนึ่งลมหายใจ
 - type: subtitle
-  text: only one breath1
+  text: only one breath
 description: only one breath
 author: พระเทพญาณวิเทศ
 creator: พระเทพญาณวิเทศ
