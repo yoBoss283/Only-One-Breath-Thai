@@ -5,11 +5,11 @@ title:
 - type: subtitle
   text: only one breath
 description: only one breath
-author: พระเทพญาณวิเทศ
-creator: พระเทพญาณวิเทศ
+author: พระเทพญาณวิเทศ (อาจารย์สุเมโธ)
+creator: พระเทพญาณวิเทศ (อาจารย์สุเมโธ)
 cover-image: cover.jpg
-rights: CC-BY-NC-ND 4.0
+rights: สงวนลิขสิทธิ์ © ๒๕๖๓ วัดป่านานาชาติ (ประเทศไทย), © ๒๕๖๓ พระมหาอดิศักดิ์ ธมฺมาภินนฺโท
 lang: th-TH
-keywords: Ajahn Sumedho, Dhamma, buddhism, RELIGION / Buddhism / Theravada
+keywords: Ajahn Sumedho, อาจารย์สุเมโธ, Dhamma, buddhism, RELIGION / Buddhism / Theravada
 identifier: 0000000000001
 ...
