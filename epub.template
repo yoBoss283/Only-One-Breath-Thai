@@ -5,20 +5,11 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <title>$pagetitle$</title>
-<<<<<<< HEAD
-  <style>
-    $styles.html()$
-$if(highlighting-css)$
-    $highlighting-css$
-$endif$
-  </style>
-=======
 $if(highlighting-css)$
   <style>
 $highlighting-css$
   </style>
 $endif$
->>>>>>> 924155c0d3302d23efef0044e6d33193e7151ccf
 $for(css)$
   <link rel="stylesheet" type="text/css" href="$css$" />
 $endfor$
@@ -29,7 +20,6 @@ $endfor$
 <body$if(coverpage)$ id="cover"$endif$$if(body-type)$ epub:type="$body-type$"$endif$>
 $if(titlepage)$
 <section epub:type="titlepage" class="titlepage">
-<<<<<<< HEAD
 $for(title)$
 $if(title.type)$
   <h1 class="$title.type$">$title.text$</h1>
@@ -61,27 +51,11 @@ $if(abstract)$
 $abstract$
 </div>
 $endif$
-=======
-  <h1>หนึ่งลมหายใจ</h1>
-  <div class="center">
-    <p>only one breath</p>
-  </div>
-  <div class="space4"></div>
-  <div class="center">
-    <p><strong>ธรรมบรรยาย โดย</strong></p>
-    <p><strong>พระเทพญาณวิเทศ (หลวงพ่อสุเมโธ)</strong></p>
-    <p><strong>ธัมมาภินันโท ภิกขุ แปล/เรียบเรียง</strong></p>
-  </div>
->>>>>>> 924155c0d3302d23efef0044e6d33193e7151ccf
 </section>
 $else$
 $if(coverpage)$
 <div id="cover-image">
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewBox="0 0 $cover-image-width$ $cover-image-height$" preserveAspectRatio="xMidYMid">
-=======
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewBox="0 0 $cover-image-width$ $cover-image-height$" preserveAspectRatio="none">
->>>>>>> 924155c0d3302d23efef0044e6d33193e7151ccf
 <image width="$cover-image-width$" height="$cover-image-height$" xlink:href="../media/$cover-image$" />
 </svg>
 </div>
