@@ -41,6 +41,7 @@ and publication information (ข้อมูลหนังสือ).
 ## Download
 
 - **EPUB:** [หนึ่งลมหายใจ - only one breath - Thai.epub](%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%A5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%88%20-%20only%20one%20breath%20-%20Thai.epub)
+- **Kindle (MOBI):** [Only-One-Breath-Thai.mobi](https://github.com/yoBoss283/Only-One-Breath-Thai/releases/download/v1.1.0/Only-One-Breath-Thai.mobi) (older Kindle devices; newer ones can use the EPUB)
 - **PDF:** [หนึ่งลมหายใจ-only-one-breath.pdf](https://cdn.amaravati.org/wp-content/uploads/2022/06/27/%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%A5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%88-only-one-breath.pdf) (print layout, hosted by Amaravati; unchanged)
 - **Book listing:** [Only One Breath (Thai) on Amaravati Media](https://media.amaravati.org/en/dhamma-books/only-one-breath-th)
 - **Releases:** see [Releases](../../releases) for all versions (latest: v1.1.0)
@@ -140,6 +141,7 @@ the script validates the result; otherwise that step is skipped.
 ## ดาวน์โหลด
 
 - **EPUB:** [หนึ่งลมหายใจ - only one breath - Thai.epub](%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%A5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%88%20-%20only%20one%20breath%20-%20Thai.epub)
+- **Kindle (MOBI):** [Only-One-Breath-Thai.mobi](https://github.com/yoBoss283/Only-One-Breath-Thai/releases/download/v1.1.0/Only-One-Breath-Thai.mobi) (สำหรับ Kindle รุ่นเก่า รุ่นใหม่ใช้ไฟล์ EPUB ได้)
 - **PDF:** [หนึ่งลมหายใจ-only-one-breath.pdf](https://cdn.amaravati.org/wp-content/uploads/2022/06/27/%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%A5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%88-only-one-breath.pdf) (ฉบับจัดหน้าสำหรับพิมพ์ จัดเก็บโดย Amaravati ไม่มีการเปลี่ยนแปลง)
 - **หน้ารายการหนังสือ:** [หนึ่งลมหายใจ (ฉบับภาษาไทย) ที่ Amaravati Media](https://media.amaravati.org/en/dhamma-books/only-one-breath-th)
 - **รุ่นที่เผยแพร่:** ดูได้ที่ [Releases](../../releases) (ล่าสุด v1.1.0)
