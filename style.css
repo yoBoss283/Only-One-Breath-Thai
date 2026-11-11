@@ -1,17 +1,270 @@
-section.titlepage h1 {
-    font-size: 2em;
-    text-align: center;
-    padding-top: 4em;
+/*
+  หนึ่งลมหายใจ · Only One Breath — EPUB stylesheet
+
+  Design notes
+  - No font-family is set on purpose: the reader's own font (and the reader's
+    font-size / theme choices) are respected, and Thai falls back correctly.
+  - Colours are inherited so light, sepia and dark reader themes all work.
+  - Thai has no spaces between words, so text is left-aligned (justified Thai
+    often produces uneven gaps) and given generous line height for the tone
+    marks and vowels above and below the line.
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.85;
+    text-align: left;
+    orphans: 2;
+    widows: 2;
+    hyphens: none;
+    -webkit-hyphens: none;
+}
+
+/* ---------- Body text ---------- */
+
+p {
+    margin: 0 0 1.15em 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/* Thai has no real italic: browsers fake a slant that hurts readability.
+   Emphasis and quoted thoughts are shown upright instead. */
+em, i {
+    font-style: normal;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ---------- Chapter openings ---------- */
+
+section.level1 {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
+    font-size: 1.55em;
+    font-weight: 600;
+    line-height: 1.5;
     text-align: center;
+    margin: 3em 0.5em 0.9em 0.5em;
+    padding: 0;
+    page-break-before: always;
+    page-break-after: avoid;
+    break-after: avoid;
 }
+
+/* Small ornamental rule under every chapter title */
+h1::after {
+    content: "";
+    display: block;
+    width: 3em;
+    margin: 0.7em auto 0 auto;
+    border-bottom: 1px solid currentColor;
+    opacity: 0.45;
+}
+
+h2, h3 {
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 1.8em 0 0.6em 0;
+    page-break-after: avoid;
+    break-after: avoid;
+}
+
+/* Source note under each chapter title ("แปลจากเรื่อง … The way it is …") */
+blockquote {
+    margin: 0 0.5em 2.2em 0.5em;
+    padding: 0;
+    border: 0;
+    font-size: 0.82em;
+    line-height: 1.7;
+    text-align: center;
+    opacity: 0.72;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+/* ---------- Quoted inner thoughts (paragraphs that are entirely emphasised) ---------- */
+
+div.thought {
+    margin: 1.4em 0.4em 1.6em 0.6em;
+    padding: 0 0 0 1em;
+    border-left: 2px solid currentColor;
+    border-left-color: rgba(128, 128, 128, 0.55);
+}
+
+div.thought p {
+    margin: 0;
+}
+
+/* ---------- Title page ---------- */
+
+section.titlepage {
+    text-align: center;
+    page-break-before: always;
+}
+
+section.titlepage h1 {
+    font-size: 2.3em;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 28% 0 0 0;
+    page-break-before: avoid;
+}
+
+section.titlepage h1::after {
+    display: none;
+}
+
+section.titlepage p {
+    margin: 0;
+}
+
+section.titlepage .subtitle {
+    font-size: 1.05em;
+    letter-spacing: 0.28em;
+    text-transform: lowercase;
+    margin-top: 0.8em;
+    opacity: 0.75;
+}
+
+section.titlepage .rule {
+    width: 3em;
+    margin: 2.2em auto 2.2em auto;
+    border-bottom: 1px solid currentColor;
+    opacity: 0.45;
+    height: 0;
+}
+
+section.titlepage .credits p {
+    margin: 0 0 0.35em 0;
+    line-height: 1.7;
+}
+
+section.titlepage .credits .label {
+    font-size: 0.85em;
+    opacity: 0.72;
+}
+
+/* ---------- Centered blocks and images ---------- */
 
 div.center {
     text-align: center;
 }
 
+div.center p {
+    margin-bottom: 1.15em;
+}
+
 div.space4 {
-    height: 80pt;
+    height: 4em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.center img,
+figure img {
+    display: block;
+    margin: 1.6em auto;
+}
+
+figure {
+    margin: 1.6em 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ---------- Lists (biography, publication info) ---------- */
+
+ul, ol {
+    margin: 0.4em 0 1.15em 0;
+    padding-left: 1.4em;
+}
+
+li {
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+li p {
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid currentColor;
+    opacity: 0.35;
+    margin: 2em 25%;
+}
+
+/* ---------- Footnotes ---------- */
+
+a.footnote-ref {
+    font-size: 0.72em;
+    vertical-align: super;
+    line-height: 0;
+    padding: 0 0.15em;
+}
+
+section.footnotes,
+section.footnotes[role="doc-endnotes"] {
+    margin-top: 2.5em;
+    font-size: 0.85em;
+    line-height: 1.75;
+}
+
+section.footnotes hr {
+    margin: 0 0 1.2em 0;
+    width: 30%;
+    opacity: 0.35;
+}
+
+section.footnotes ol {
+    padding-left: 1.6em;
+}
+
+section.footnotes aside {
+    margin: 0 0 0.8em 0;
+    padding: 0;
+}
+
+section.footnotes p {
+    margin: 0 0 0.6em 0;
+}
+
+a.footnote-back {
+    margin-left: 0.4em;
+    font-size: 0.9em;
+}
+
+/* ---------- Table of contents (nav) ---------- */
+
+nav#toc ol,
+nav[epub|type="toc"] ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav#toc li,
+nav[epub|type="toc"] li {
+    margin: 0 0 0.7em 0;
 }

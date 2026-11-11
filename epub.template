@@ -21,14 +21,14 @@ $endfor$
 $if(titlepage)$
 <section epub:type="titlepage" class="titlepage">
   <h1>หนึ่งลมหายใจ</h1>
-  <div class="center">
-    <p>only one breath</p>
-  </div>
-  <div class="space4"></div>
-  <div class="center">
-    <p><strong>ธรรมบรรยาย โดย</strong></p>
+  <p class="subtitle">only one breath</p>
+  <div class="rule"></div>
+  <div class="credits">
+    <p class="label">ธรรมบรรยาย โดย</p>
     <p><strong>พระเทพญาณวิเทศ (หลวงพ่อสุเมโธ)</strong></p>
-    <p><strong>ธัมมาภินันโท ภิกขุ แปล/เรียบเรียง</strong></p>
+    <p class="label">&#160;</p>
+    <p><strong>ธัมมาภินันโท ภิกขุ</strong></p>
+    <p class="label">แปล/เรียบเรียง</p>
   </div>
 </section>
 $else$
