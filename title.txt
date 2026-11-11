@@ -4,12 +4,21 @@ title:
   text: หนึ่งลมหายใจ
 - type: subtitle
   text: only one breath
-description: only one breath
-author: พระเทพญาณวิเทศ (อาจารย์สุเมโธ)
-creator: พระเทพญาณวิเทศ (อาจารย์สุเมโธ)
+creator:
+- role: aut
+  text: พระเทพญาณวิเทศ (อาจารย์สุเมโธ)
+- role: trl
+  text: พระมหาอดิศักดิ์ ธมฺมาภินนฺโท (ธัมมาภินันโท ภิกขุ)
+description: ธรรมบรรยายแปล ๕ เรื่องของหลวงพ่อสุเมโธ (อาจารย์สุเมโธ) คัดแปลจากหนังสือ The Way It Is — Thai translation of five Dhamma talks by Ajahn Sumedho.
 cover-image: cover.jpg
 rights: สงวนลิขสิทธิ์ © ๒๕๖๓ วัดป่านานาชาติ (ประเทศไทย), © ๒๕๖๓ พระมหาอดิศักดิ์ ธมฺมาภินนฺโท
 lang: th-TH
-keywords: Ajahn Sumedho, อาจารย์สุเมโธ, Dhamma, buddhism, RELIGION / Buddhism / Theravada
-identifier: 0000000000001
+subject:
+- Ajahn Sumedho
+- อาจารย์สุเมโธ
+- Dhamma
+- Buddhism
+- RELIGION / Buddhism / Theravada
+toc-title: สารบัญ
+identifier: urn:uuid:7c1e2b5a-3f84-4d0e-9a67-5b2d8e41c0f3
 ...

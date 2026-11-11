@@ -89,11 +89,13 @@ The EPUB is generated from the Markdown chapters with [Pandoc](https://pandoc.or
 ./generate.sh
 ```
 
-This runs Pandoc with `epub.template`, `style.css`, `title.txt` and the chapter
-files `ch0preface.md` to `ch7copyright.md`, and writes `breath.epub`.
-(The last line of the script validates the result with
-[EPUBCheck](https://www.w3.org/publishing/epubcheck/); adjust the path to your
-own copy or remove that line.)
+This runs Pandoc with `epub.template`, `style.css`, `title.txt`, the filters in
+`filters/` (chapter numbers and quoted-thought blocks; presentation only) and the
+chapter files `ch0preface.md` to `ch7copyright.md`, then `tools/fix_titles.py`
+(Python 3) gives each page its chapter name as the page title. It writes
+`breath.epub`. If [EPUBCheck](https://www.w3.org/publishing/epubcheck/) is
+installed (`epubcheck` on your PATH, or `EPUBCHECK_JAR` pointing to the jar),
+the script validates the result; otherwise that step is skipped.
 
 ---
 

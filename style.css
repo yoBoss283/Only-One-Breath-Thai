@@ -76,6 +76,17 @@ h1::after {
     opacity: 0.45;
 }
 
+/* Small Thai numeral above the title of each talk (from filters/chapter-number.lua) */
+h1[data-no]::before {
+    content: attr(data-no);
+    display: block;
+    font-size: 0.6em;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    margin: 0 0 0.5em 0;
+    opacity: 0.6;
+}
+
 h2, h3 {
     font-weight: 600;
     line-height: 1.5;
@@ -257,14 +268,17 @@ a.footnote-back {
 
 /* ---------- Table of contents (nav) ---------- */
 
-nav#toc ol,
-nav[epub|type="toc"] ol {
+nav#toc ol {
     list-style: none;
-    margin: 0;
+    margin: 1.5em 0 0 0;
     padding: 0;
 }
 
-nav#toc li,
-nav[epub|type="toc"] li {
-    margin: 0 0 0.7em 0;
+nav#toc li {
+    margin: 0 0 0.9em 0;
+    padding: 0;
+}
+
+nav#toc h1 {
+    margin-top: 3em;
 }

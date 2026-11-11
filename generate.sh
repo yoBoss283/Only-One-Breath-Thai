@@ -8,6 +8,8 @@ pandoc \
   --template epub.template \
   --css style.css \
   --lua-filter filters/thought.lua \
+  --lua-filter filters/chapter-number.lua \
+  --toc --toc-depth=1 \
   --output breath.epub \
   title.txt \
   ch0preface.md \
@@ -18,6 +20,9 @@ pandoc \
   ch5.md \
   ch6resume.md \
   ch7copyright.md
+
+# Give each page a real <title> instead of "ch001.xhtml"
+python3 tools/fix_titles.py breath.epub
 
 # Optional validation: runs only if EPUBCheck is installed
 # (e.g. `brew install epubcheck`, or set EPUBCHECK_JAR to the jar's path).
