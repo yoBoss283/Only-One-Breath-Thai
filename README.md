@@ -1,6 +1,6 @@
 # หนึ่งลมหายใจ · Only One Breath (Thai edition)
 
-**Thai translation of five Dhamma talks by Ajahn Sumedho — free eBook (EPUB / PDF)**
+**Thai translation of five Dhamma talks by Ajahn Sumedho, translated by Phra Maha Adisak Dhammabhinando (พระมหาอดิศักดิ์ ธมฺมาภินนฺโท) — free eBook (EPUB / PDF)**
 
 [English](#english) · [ภาษาไทย](#thai)
 
@@ -18,8 +18,12 @@ collects teachings he gave while abbot of Amaravati Buddhist Monastery in
 England. They are practical, down-to-earth teachings on meditation, mindfulness
 of breathing (อานาปานสติ), patience, and accepting things as they are.
 
-This repository holds the source text, build files and published eBook of the
-Thai edition.
+**About this repository.** The Thai translation is the work of
+**Phra Maha Adisak Dhammabhinando** (พระมหาอดิศักดิ์ ธมฺมาภินนฺโท), published in
+print by Wat Pah Nanachat. This repository only hosts the eBook edition of that
+work (source text, build files and the published EPUB), shared here for free
+dissemination. The owner of this repository is not the author, translator or
+copyright holder.
 
 ## Contents
 
@@ -50,7 +54,9 @@ and publication information (ข้อมูลหนังสือ).
 ## Credits
 
 - **Talks:** Phra Thepyanvisit (Ajahn Sumedho) · พระเทพญาณวิเทศ (หลวงพ่อสุเมโธ)
-- **Translation / editing:** ธัมมาภินันโท ภิกขุ (Dhammabhinando Bhikkhu)
+- **Translation / editing:** Phra Maha Adisak Dhammabhinando · พระมหาอดิศักดิ์ ธมฺมาภินนฺโท
+  (credited as ธัมมาภินันโท ภิกขุ on the book's information page)
+- **eBook edition (2022):** prepared for free dissemination and hosted here by yoBoss283
 - **Cover design and layout:** อาคม บัวครอง
 - **Cover image courtesy of:** บริษัท เคิร์ฟอิมเมจ จำกัด
 - **Line drawings:** ภีมภาณุรัศมิ์ นิรินทร์
@@ -59,8 +65,8 @@ and publication information (ข้อมูลหนังสือ).
 
 ## Copyright
 
-© B.E. 2563 (2020) Wat Pah Nanachat (Thailand) · วัดป่านานาชาติ (ประเทศไทย)
-© B.E. 2563 (2020) Phra Maha Adisak Dhammabhinando · พระมหาอดิศักดิ์ ธมฺมาภินนฺโท
+- © B.E. 2563 (2020) Wat Pah Nanachat (Thailand) · วัดป่านานาชาติ (ประเทศไทย)
+- © B.E. 2563 (2020) Phra Maha Adisak Dhammabhinando · พระมหาอดิศักดิ์ ธมฺมาภินนฺโท
 
 **All rights reserved.** As stated in the book, you may not excerpt, copy, adapt
 or print this book for sale (สงวนลิขสิทธิ์ ห้ามตัดตอน คัดลอก ดัดแปลง หรือพิมพ์เพื่อจำหน่าย).
@@ -95,7 +101,7 @@ own copy or remove that line.)
 
 # หนึ่งลมหายใจ · Only One Breath (ฉบับภาษาไทย)
 
-**ธรรมบรรยายแปล ๕ เรื่อง โดยพระเทพญาณวิเทศ (หลวงพ่อสุเมโธ) — หนังสือธรรมะอิเล็กทรอนิกส์ (EPUB / PDF) แจกฟรี**
+**ธรรมบรรยายแปล ๕ เรื่อง โดยพระเทพญาณวิเทศ (หลวงพ่อสุเมโธ) แปลโดย พระมหาอดิศักดิ์ ธมฺมาภินนฺโท — หนังสือธรรมะอิเล็กทรอนิกส์ (EPUB / PDF) แจกฟรี**
 
 [English](#english) · [ภาษาไทย](#thai)
 
@@ -110,7 +116,10 @@ own copy or remove that line.)
 เนื้อหาว่าด้วยการปฏิบัติสมาธิภาวนา อานาปานสติ (การมีสติอยู่กับลมหายใจเข้า-ออก)
 ขันติธรรม และการยอมรับสภาวะตามที่เป็นจริง
 
-พื้นที่นี้เก็บต้นฉบับ ไฟล์สำหรับจัดทำ และหนังสืออิเล็กทรอนิกส์ฉบับภาษาไทย
+**เกี่ยวกับพื้นที่นี้** ผู้แปลหนังสือเล่มนี้คือ **พระมหาอดิศักดิ์ ธมฺมาภินนฺโท**
+จัดพิมพ์เป็นเล่มโดยวัดป่านานาชาติ ส่วนพื้นที่นี้เป็นเพียงที่เก็บและเผยแผ่
+หนังสืออิเล็กทรอนิกส์ฉบับนี้ (ต้นฉบับ ไฟล์สำหรับจัดทำ และไฟล์ EPUB)
+เพื่อแจกเป็นธรรมทาน เจ้าของพื้นที่นี้ไม่ใช่ผู้เขียน ผู้แปล หรือเจ้าของลิขสิทธิ์
 
 ## สารบัญ
 
@@ -141,7 +150,8 @@ own copy or remove that line.)
 ## ผู้เกี่ยวข้อง
 
 - **ธรรมบรรยายโดย:** พระเทพญาณวิเทศ (หลวงพ่อสุเมโธ)
-- **แปล/เรียบเรียง:** ธัมมาภินันโท ภิกขุ
+- **แปล/เรียบเรียง:** พระมหาอดิศักดิ์ ธมฺมาภินนฺโท (ธัมมาภินันโท ภิกขุ)
+- **หนังสืออิเล็กทรอนิกส์ (พ.ศ. ๒๕๖๕):** จัดทำเพื่อเผยแผ่ และเก็บไว้ที่นี่โดย yoBoss283
 - **ออกแบบปกและรูปเล่ม:** อาคม บัวครอง
 - **อนุเคราะห์ภาพหน้าปก:** บริษัท เคิร์ฟอิมเมจ จำกัด
 - **ภาพลายเส้น:** ภีมภาณุรัศมิ์ นิรินทร์
@@ -150,8 +160,8 @@ own copy or remove that line.)
 
 ## ลิขสิทธิ์
 
-สงวนลิขสิทธิ์ © ๒๕๖๓ วัดป่านานาชาติ (ประเทศไทย)
-สงวนลิขสิทธิ์ © ๒๕๖๓ พระมหาอดิศักดิ์ ธมฺมาภินนฺโท
+- สงวนลิขสิทธิ์ © ๒๕๖๓ วัดป่านานาชาติ (ประเทศไทย)
+- สงวนลิขสิทธิ์ © ๒๕๖๓ พระมหาอดิศักดิ์ ธมฺมาภินนฺโท
 
 **สงวนลิขสิทธิ์ ห้ามตัดตอน คัดลอก ดัดแปลง หรือพิมพ์เพื่อจำหน่าย**
 
